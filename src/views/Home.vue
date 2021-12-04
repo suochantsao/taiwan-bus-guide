@@ -2,9 +2,19 @@
   <div class="home">
     <p>test</p>
     <div class="bus-section">
-      <h4 class="search-route">搜尋路線</h4>
-      <h4 class="search-station">搜尋站名</h4>
-      <h4>定位及地址搜尋</h4>
+      <ul>
+        <li><h4 class="search-route">搜尋路線</h4></li>
+        <li><h4 class="search-station">搜尋站名</h4></li>
+        <li><h4>定位及地址搜尋</h4></li>
+      </ul>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="input-section">
+      <input type="text" />
     </div>
   </div>
 </template>
@@ -37,6 +47,10 @@ export default {
     background-position: top;
     font-weight: bold;
     font-size: 30px;
+    ul {
+      display: flex;
+      width: 100%;
+    }
   }
   .search-route {
     margin-right: 18%;
