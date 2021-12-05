@@ -2,19 +2,16 @@
   <div class="home">
     <p>test</p>
     <div class="bus-section">
-      <ul>
+      <ul class="title-block">
         <li><h4 class="search-route">搜尋路線</h4></li>
         <li><h4 class="search-station">搜尋站名</h4></li>
         <li><h4>定位及地址搜尋</h4></li>
       </ul>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
+      <ul class="input-block">
+        <li><input type="text" /></li>
+        <li><input type="text" /></li>
+        <li><input type="text" /></li>
       </ul>
-    </div>
-    <div class="input-section">
-      <input type="text" />
     </div>
   </div>
 </template>
@@ -36,9 +33,8 @@ export default {
     margin-bottom: 2%;
   }
   .bus-section {
-    display: flex;
     margin: 0 auto;
-    padding: 6% 0 0 30.5%;
+    padding: 6% 0 0 6%;
     background-image: url("../assets/img/bus.svg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -50,13 +46,16 @@ export default {
     ul {
       display: flex;
       width: 100%;
+      border: 1px solid pink;
+      li {
+        width: 100%;
+        text-align: center;
+        border: 1px solid pink;
+      }
     }
-  }
-  .search-route {
-    margin-right: 18%;
-  }
-  .search-station {
-    margin-right: 12.5%;
+    .input-block {
+      margin-top: 6%;
+    }
   }
 }
 </style>
