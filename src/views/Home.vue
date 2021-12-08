@@ -8,9 +8,9 @@
         <li><h4>定位及地址搜尋</h4></li>
       </ul>
       <ul class="input-block">
-        <li><input type="text" /></li>
-        <li><input type="text" /></li>
-        <li><input type="text" /></li>
+        <li><input type="text" placeholder="請輸入公車路線..." /></li>
+        <li><input type="text" placeholder="請輸入站名..." /></li>
+        <li><input type="button" />搜尋附近站牌</li>
       </ul>
     </div>
   </div>
